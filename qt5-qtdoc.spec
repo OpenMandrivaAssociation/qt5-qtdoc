@@ -18,7 +18,7 @@ BuildRequires:	pkgconfig(Qt5Script)
 BuildRequires:	pkgconfig(Qt5Svg)
 BuildRequires:	pkgconfig(Qt5XmlPatterns)
 BuildRequires:	pkgconfig(Qt5Core)
-BuildRequires:	qt5-qttools-assistant
+BuildRequires:	qt5-assistant
 BuildRequires:	qdoc5
 
 BuildArch:	noarch
