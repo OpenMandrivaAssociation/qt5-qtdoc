@@ -1,6 +1,6 @@
 %define api 5
 %define qtminor 4
-%define qtsubminor 0
+%define qtsubminor 1
 
 %define qtversion %{api}.%{qtminor}.%{qtsubminor}
 %define qttarballdir qtdoc-opensource-src-%{qtversion}
@@ -26,7 +26,7 @@ BuildArch:	noarch
 
 
 %description
-Qt5 Documentation
+Qt5 Documentation.
 
 %files
 # Need to be splitted ?
