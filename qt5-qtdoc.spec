@@ -1,24 +1,19 @@
-%define api 5
-%define qtminor 4
-%define qtsubminor 1
-
-%define qtversion %{api}.%{qtminor}.%{qtsubminor}
-%define qttarballdir qtdoc-opensource-src-%{qtversion}
+%define beta alpha
+%define qttarballdir qtdoc-opensource-src-%{version}%{?beta:-%{beta}}
 
 Name:		qt5-qtdoc
-Version:	%{qtversion}
-Release:	1
+Version:	5.5.0
+Release:	%{?beta:0.%{beta}.}1
+Source0:	http://download.qt.io/%{?beta:development}%{!?beta:official}_releases/qt/%(echo %{version}|cut -d. -f1-2)/%{version}%{?beta:-%{beta}}/submodules/%{qttarballdir}.tar.xz
 Summary:	Qt GUI toolkit
 Group:		Development/KDE and Qt
 License:	LGPLv2 with exceptions or GPLv3 with exceptions and GFDL
 URL:		http://www.qt-project.org
-Source0:	http://download.qt-project.org/official_releases/qt/%{api}.%{qtminor}/%{version}/submodules/%{qttarballdir}.tar.xz
 BuildRequires:	qt5-qtbase-devel
 BuildRequires:	pkgconfig(Qt5Script)
 BuildRequires:	pkgconfig(Qt5Svg)
 BuildRequires:	pkgconfig(Qt5XmlPatterns)
 BuildRequires:	pkgconfig(Qt5Core)
-BuildRequires:	qt5-assistant
 BuildRequires:	qt5-linguist-tools
 BuildRequires:	qdoc5
 
