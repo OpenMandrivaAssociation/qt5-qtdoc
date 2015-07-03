@@ -1,9 +1,9 @@
-%define beta rc
+%define beta %nil
 %define qttarballdir qtdoc-opensource-src-%{version}%{?beta:-%{beta}}
 
 Name:		qt5-qtdoc
 Version:	5.5.0
-$1.%{beta}.1
+Release:	1
 Source0:	http://download.qt.io/%{?beta:development}%{!?beta:official}_releases/qt/%(echo %{version}|cut -d. -f1-2)/%{version}%{?beta:-%{beta}}/submodules/%{qttarballdir}.tar.xz
 Summary:	Qt GUI toolkit
 Group:		Development/KDE and Qt
@@ -16,7 +16,6 @@ BuildRequires:	pkgconfig(Qt5XmlPatterns)
 BuildRequires:	pkgconfig(Qt5Core)
 BuildRequires:	qt5-linguist-tools
 BuildRequires:	qdoc5
-
 BuildArch:	noarch
 
 
