@@ -1,4 +1,4 @@
-%define beta %nil
+%define beta
 %define qttarballdir qtdoc-opensource-src-%{version}%{?beta:-%{beta}}
 
 Name:		qt5-qtdoc
