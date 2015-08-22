@@ -15,6 +15,7 @@ Summary:	Qt GUI toolkit
 Group:		Development/KDE and Qt
 License:	LGPLv2 with exceptions or GPLv3 with exceptions and GFDL
 URL:		http://www.qt.io
+Patch0:		qtdoc-opensource-src-5.5.0-fix-qtdoc.qdocconf.patch
 BuildRequires:	qt5-qtbase-devel
 BuildRequires:	pkgconfig(Qt5Script)
 BuildRequires:	pkgconfig(Qt5Svg)
@@ -37,6 +38,7 @@ Qt5 Documentation.
 
 %prep
 %setup -q -n %qttarballdir
+%apply_patches
 
 %build
 %qmake_qt5

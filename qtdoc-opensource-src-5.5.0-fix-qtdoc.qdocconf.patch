@@ -1,0 +1,10 @@
+--- qtdoc-opensource-src-5.5.0/doc/config/qtdoc.qdocconf	2015-06-29 20:12:53.000000000 +0000
++++ qtdoc-opensource-src-5.5.0/doc/config/qtdoc.qdocconf.tpg	2015-08-22 15:29:59.592940016 +0000
+@@ -1,5 +1,5 @@
+-include($QT_INSTALL_DOCS/global/qt-module-defaults.qdocconf)
+-include($QT_INSTALL_DOCS/global/externalsites.qdocconf)
++include($$PWD/$QT_INSTALL_DOCS/global/qt-module-defaults.qdocconf)
++include($$PWD/$QT_INSTALL_DOCS/global/externalsites.qdocconf)
+ 
+ 
+ project                 = QtDoc
