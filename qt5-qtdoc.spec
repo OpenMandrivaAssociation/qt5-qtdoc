@@ -41,7 +41,7 @@ Qt5 Documentation.
 %apply_patches
 
 %build
-cat %{buildroot}/usr/share/doc/qt5/global/qt-module-defaults.qdocconf
+cat %{buildroot}/doc/qt5/global/qt-module-defaults.qdocconf
 
 %qmake_qt5
 %make docs
