@@ -24,6 +24,7 @@ BuildRequires:	pkgconfig(Qt5Core)
 BuildRequires:	qt5-linguist-tools
 BuildRequires:	qt5-assistant
 BuildRequires:	qdoc5
+BuildRequires:	findutils
 BuildArch:	noarch
 
 
@@ -41,7 +42,8 @@ Qt5 Documentation.
 %apply_patches
 
 %build
-cat %{buildroot}/doc/qt5/global/qt-module-defaults.qdocconf
+find . -name "*.qdocconf"
+find %{buildroot} -name "*.qdocconf"
 
 %qmake_qt5
 %make docs
