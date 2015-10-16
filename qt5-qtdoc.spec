@@ -1,7 +1,7 @@
 %define beta %nil
 
 Name:		qt5-qtdoc
-Version:	5.5.0
+Version:	5.5.1
 %if "%{beta}" != ""
 Release:	1.%{beta}.1
 %define qttarballdir qtdoc-opensource-src-%{version}-%{beta}
