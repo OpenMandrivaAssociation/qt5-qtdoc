@@ -22,6 +22,7 @@ BuildRequires:	pkgconfig(Qt5XmlPatterns)
 BuildRequires:	pkgconfig(Qt5Core)
 BuildRequires:	qt5-linguist-tools
 BuildRequires:	qt5-assistant
+BuildRequires:	qt5-devel
 BuildRequires:	qdoc5
 BuildRequires:	findutils
 BuildArch:	noarch
