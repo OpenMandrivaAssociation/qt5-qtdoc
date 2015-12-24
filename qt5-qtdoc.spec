@@ -42,6 +42,7 @@ Qt5 Documentation.
 %apply_patches
 
 %build
+rpm -ql %{_lib}qtcore-devel
 ls -l /usr/share/doc/qt5/global/qt-module-defaults.qdocconf
 #find . -name "*.qdocconf"
 
