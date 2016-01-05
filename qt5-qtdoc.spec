@@ -45,6 +45,8 @@ Qt5 Documentation.
 rpm -ql %{_lib}qt5core-devel
 ls -l /usr/share/doc/qt5
 ls -l /usr/share/doc/qt5/global
+ls -l /usr/share/doc/qt5/global/template
+find /usr/share/doc/qt5
 ls -l /usr/share/doc/qt5/global/qt-module-defaults.qdocconf
 #find . -name "*.qdocconf"
 
