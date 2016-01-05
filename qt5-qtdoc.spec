@@ -15,9 +15,11 @@ Summary:	Qt GUI toolkit
 Group:		Development/KDE and Qt
 License:	LGPLv2 with exceptions or GPLv3 with exceptions and GFDL
 URL:		http://www.qt.io
+BuildRequires:	qt5-qtbase-devel
 BuildRequires:	pkgconfig(Qt5Core)
 BuildRequires:	qdoc5
 BuildRequires:	qt5-assistant
+BuildRequires:	qt5-linguist-tools
 BuildRequires:	qt5-macros
 BuildRequires:	qmake5
 BuildRequires:	findutils
