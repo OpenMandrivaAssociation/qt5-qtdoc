@@ -18,6 +18,7 @@ URL:		http://www.qt.io
 BuildRequires:	pkgconfig(Qt5Core)
 BuildRequires:	qdoc5
 BuildRequires:	qt5-macros
+BuildRequires:	qmake5
 BuildRequires:	findutils
 BuildArch:	noarch
 
