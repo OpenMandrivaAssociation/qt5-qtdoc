@@ -35,6 +35,8 @@ Qt5 Documentation.
 %setup -q -n %qttarballdir
 %apply_patches
 find /usr/share/doc/qt5
+find %{_libdir}/cmake/Qt5Core
+find /usr/include/qt5/QtCore
 
 %build
 find /usr/share/doc/qt5
