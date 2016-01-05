@@ -15,14 +15,7 @@ Summary:	Qt GUI toolkit
 Group:		Development/KDE and Qt
 License:	LGPLv2 with exceptions or GPLv3 with exceptions and GFDL
 URL:		http://www.qt.io
-BuildRequires:	qt5-qtbase-devel
-BuildRequires:	pkgconfig(Qt5Script)
-BuildRequires:	pkgconfig(Qt5Svg)
-BuildRequires:	pkgconfig(Qt5XmlPatterns)
 BuildRequires:	pkgconfig(Qt5Core)
-BuildRequires:	qt5-linguist-tools
-BuildRequires:	qt5-assistant
-BuildRequires:	qt5-devel
 BuildRequires:	qdoc5
 BuildRequires:	findutils
 BuildArch:	noarch
@@ -47,6 +40,7 @@ ls -l /usr/share/doc/qt5
 ls -l /usr/share/doc/qt5/global
 ls -l /usr/share/doc/qt5/global/template
 find /usr/share/doc/qt5
+rpm -V %{_lib}qt5core-devel
 ls -l /usr/share/doc/qt5/global/qt-module-defaults.qdocconf
 #find . -name "*.qdocconf"
 
