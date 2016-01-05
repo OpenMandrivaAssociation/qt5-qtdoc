@@ -25,8 +25,9 @@ BuildArch:	noarch
 Qt5 Documentation.
 
 %files
-# Need to be splitted ?
-#doc %_qt5_docdir
+%doc LICENSE.FDL
+%{_qt5_docdir}/qtdoc.qch
+%{_qt5_docdir}/qtdoc
 
 #------------------------------------------------------------------------------
 
@@ -46,7 +47,4 @@ ls -l /usr/share/doc/qt5/global/qt-module-defaults.qdocconf
 #------------------------------------------------------------------------------
 
 %install
-%makeinstall_std INSTALL_ROOT=%{buildroot}
-
-mkdir -p %{buildroot}%{_qt5_docdir}
-cp -fr doc/qtdoc* %{buildroot}%{_qt5_docdir}/
+make install_docs INSTALL_ROOT=%{buildroot}
