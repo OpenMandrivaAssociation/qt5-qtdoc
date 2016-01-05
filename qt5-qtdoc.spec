@@ -26,21 +26,17 @@ Qt5 Documentation.
 
 %files
 # Need to be splitted ?
-%doc %_qt5_docdir
+#doc %_qt5_docdir
 
 #------------------------------------------------------------------------------
 
 %prep
 %setup -q -n %qttarballdir
 %apply_patches
+find /usr/share/doc/qt5
 
 %build
-rpm -ql %{_lib}qt5core-devel
-ls -l /usr/share/doc/qt5
-ls -l /usr/share/doc/qt5/global
-ls -l /usr/share/doc/qt5/global/template
 find /usr/share/doc/qt5
-rpm -V %{_lib}qt5core-devel
 ls -l /usr/share/doc/qt5/global/qt-module-defaults.qdocconf
 #find . -name "*.qdocconf"
 
