@@ -17,6 +17,7 @@ License:	LGPLv2 with exceptions or GPLv3 with exceptions and GFDL
 URL:		http://www.qt.io
 BuildRequires:	pkgconfig(Qt5Core)
 BuildRequires:	qdoc5
+BuildRequires:	qt5-macros
 BuildRequires:	findutils
 BuildArch:	noarch
 
