@@ -34,15 +34,8 @@ Qt5 Documentation.
 %prep
 %setup -q -n %qttarballdir
 %apply_patches
-find /usr/share/doc/qt5
-find %{_libdir}/cmake/Qt5Core
-find /usr/include/qt5/QtCore
 
 %build
-find /usr/share/doc/qt5
-ls -l /usr/share/doc/qt5/global/qt-module-defaults.qdocconf
-#find . -name "*.qdocconf"
-
 %qmake_qt5
 %make docs
 
