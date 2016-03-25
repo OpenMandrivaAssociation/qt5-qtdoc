@@ -7,7 +7,7 @@ Release:	1.%{beta}.1
 %define qttarballdir qtdoc-opensource-src-%{version}-%{beta}
 Source0:	http://download.qt.io/development_releases/qt/%(echo %{version}|cut -d. -f1-2)/%{version}-%{beta}/submodules/%{qttarballdir}.tar.xz
 %else
-Release:	1
+Release:	2
 %define qttarballdir qtdoc-opensource-src-%{version}
 Source0:	http://download.qt.io/official_releases/qt/%(echo %{version}|cut -d. -f1-2)/%{version}/submodules/%{qttarballdir}.tar.xz
 %endif
@@ -25,7 +25,7 @@ BuildRequires:	pkgconfig(Qt5Qml) >= %{version}
 BuildRequires:	qt5-assistant
 BuildRequires:	qt5-linguist-tools
 BuildRequires:	qt5-macros
-BuildRequires:	qt5-qttools
+BuildRequires:	qdoc5
 BuildRequires:	qmake5 >= %{version}
 BuildRequires:	findutils
 BuildArch:	noarch
