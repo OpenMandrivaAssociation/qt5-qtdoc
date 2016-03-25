@@ -22,7 +22,6 @@ BuildRequires:	pkgconfig(Qt5Multimedia) >= %{version}
 BuildRequires:	pkgconfig(Qt5Script) >= %{version}
 BuildRequires:	pkgconfig(Qt5Widgets) >= %{version}
 BuildRequires:	pkgconfig(Qt5Qml) >= %{version}
-BuildRequires:	qdoc5
 BuildRequires:	qt5-assistant
 BuildRequires:	qt5-linguist-tools
 BuildRequires:	qt5-macros
