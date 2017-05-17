@@ -1,4 +1,4 @@
-%define beta alpha
+%define beta beta4
 
 Name:		qt5-qtdoc
 Version:	5.9.0
