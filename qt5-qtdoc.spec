@@ -1,11 +1,11 @@
-%define beta beta4
+%define beta rc1
 
 Name:		qt5-qtdoc
 Version:	5.10.0
 %if "%{beta}" != ""
 Release:	0.%{beta}.1
 %define qttarballdir qtdoc-everywhere-src-%{version}-%{beta}
-Source0:	http://download.qt.io/development_releases/qt/%(echo %{version}|cut -d. -f1-2)/%{version}-%{beta}/submodules/%{qttarballdir}.tar.xz
+Source0:	http://download.qt.io/development_releases/qt/%(echo %{version}|cut -d. -f1-2)/%{version}-%(echo %{beta} |sed -e "s,1$,,")/submodules/%{qttarballdir}.tar.xz
 %else
 Release:	1
 %define qttarballdir qtdoc-opensource-src-%{version}
