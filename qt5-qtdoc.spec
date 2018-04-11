@@ -25,7 +25,7 @@ BuildRequires:	pkgconfig(Qt5Qml) >= %{version}
 BuildRequires:	qt5-assistant
 BuildRequires:	qt5-linguist-tools
 BuildRequires:	qt5-macros
-BuildRequires:	qt5-qttools
+BuildRequires:	qt5-qttools >= 5.11.0-0
 BuildRequires:	qdoc5
 BuildRequires:	qmake5 >= %{version}
 BuildRequires:	findutils
