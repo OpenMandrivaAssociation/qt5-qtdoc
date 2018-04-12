@@ -29,6 +29,8 @@ BuildRequires:	qt5-qttools >= 5.11.0-0
 BuildRequires:	qdoc5
 BuildRequires:	qmake5 >= %{version}
 BuildRequires:	findutils
+# For the Provides: generator
+BuildRequires:	cmake >= 3.11.0-1
 BuildArch:	noarch
 
 %description
