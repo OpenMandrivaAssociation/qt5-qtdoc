@@ -44,14 +44,13 @@ Qt5 Documentation.
 #------------------------------------------------------------------------------
 
 %prep
-%setup -q -n %qttarballdir
-%apply_patches
+%autosetup -n %qttarballdir -p1
 
 %build
 %qmake_qt5
-%make docs
+%make_build docs
 
 #------------------------------------------------------------------------------
 
 %install
-make install_docs INSTALL_ROOT=%{buildroot}
+%make_install install_docs INSTALL_ROOT=%{buildroot}
