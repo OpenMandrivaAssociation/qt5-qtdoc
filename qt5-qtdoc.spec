@@ -1,13 +1,13 @@
 %define beta %{nil}
 
 Name:		qt5-qtdoc
-Version:	5.11.2
+Version:	5.12.0
 %if "%{beta}" != ""
 Release:	0.%{beta}.1
 %define qttarballdir qtdoc-everywhere-src-%{version}-%{beta}
 Source0:	http://download.qt.io/development_releases/qt/%(echo %{version}|cut -d. -f1-2)/%{version}-%(echo %{beta} |sed -e "s,1$,,")/submodules/%{qttarballdir}.tar.xz
 %else
-Release:	2
+Release:	1
 %define qttarballdir qtdoc-everywhere-src-%{version}
 Source0:	http://download.qt.io/official_releases/qt/%(echo %{version}|cut -d. -f1-2)/%{version}/submodules/%{qttarballdir}.tar.xz
 %endif
@@ -31,7 +31,6 @@ BuildRequires:	qmake5 >= %{version}
 BuildRequires:	findutils
 # For the Provides: generator
 BuildRequires:	cmake >= 3.11.0-1
-BuildArch:	noarch
 
 %description
 Qt5 Documentation.
@@ -40,6 +39,7 @@ Qt5 Documentation.
 %doc LICENSE.FDL
 %{_qt5_docdir}/qtdoc.qch
 %{_qt5_docdir}/qtdoc
+%{_libdir}/qt5/examples
 
 #------------------------------------------------------------------------------
 
