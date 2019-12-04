@@ -1,4 +1,4 @@
-%define beta beta3
+%define beta rc
 
 Name:		qt5-qtdoc
 Version:	5.14.0
