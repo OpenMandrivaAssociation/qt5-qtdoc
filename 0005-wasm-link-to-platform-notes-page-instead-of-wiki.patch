@@ -1,0 +1,32 @@
+From 902b417ce9e2749f83df2d6edebae1f694497003 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Morten=20Johan=20S=C3=B8rvig?= <morten.sorvig@qt.io>
+Date: Fri, 30 Oct 2020 13:49:25 +0100
+Subject: [PATCH 05/15] wasm: link to platform notes page instead of wiki
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+These have more-or-less the same content.
+
+Change-Id: Ia7eafe2dc3a0d1d5041a10b14c492c7d3f1a2ab9
+Reviewed-by: Tor Arne Vestbø <tor.arne.vestbo@qt.io>
+---
+ doc/src/platforms/webasm.qdoc | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/doc/src/platforms/webasm.qdoc b/doc/src/platforms/webasm.qdoc
+index ce8b9c68..862417e2 100644
+--- a/doc/src/platforms/webasm.qdoc
++++ b/doc/src/platforms/webasm.qdoc
+@@ -176,7 +176,7 @@ You can test-run your application in the following way:
+ The most important limitation is that the Qt build is static,
+ and does not support threads.
+ 
+-For further info, refer to \l { https://wiki.qt.io/Qt_for_WebAssembly#Known_issues_and_platform_notes}{Known_issues_and_platform_notes}.
++For further info, refer to \l{qtwebassembly-platform-notes}
+ 
+ \section1 External resources
+ 
+-- 
+2.31.1
+

@@ -1,0 +1,78 @@
+From 8df69cb2b52eeea749c573316fc1deb4b0277408 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Morten=20Johan=20S=C3=B8rvig?= <morten.sorvig@qt.io>
+Date: Fri, 30 Oct 2020 13:50:30 +0100
+Subject: [PATCH 06/15] wasm: move supported modules list to front page
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Let’s give this a little more visibility.
+
+Change-Id: Id3fa30265e3455845daa6cabc8153b96eb7f3d72
+Reviewed-by: Tor Arne Vestbø <tor.arne.vestbo@qt.io>
+---
+ .../qtwebassembly-platform-notes.qdoc         | 13 -----------
+ doc/src/platforms/webasm.qdoc                 | 23 +++++++++++++++++++
+ 2 files changed, 23 insertions(+), 13 deletions(-)
+
+diff --git a/doc/src/platforms/qtwebassembly-platform-notes.qdoc b/doc/src/platforms/qtwebassembly-platform-notes.qdoc
+index 9b5fa0d6..785c3ff0 100644
+--- a/doc/src/platforms/qtwebassembly-platform-notes.qdoc
++++ b/doc/src/platforms/qtwebassembly-platform-notes.qdoc
+@@ -72,19 +72,6 @@
+     does use some operating system adaptations, for example for ctrl/cmd
+     key handling on macOS.
+ 
+-    \section2 Supported Qt Modules
+-
+-    Qt for WebAssembly supports a subset of the Qt modules. The list below
+-    lists the currently tested modules. The list can be pasted as arguments
+-    to \c make.
+-
+-    \badcode
+-        module-qtbase module-qtdeclarative module-qtquickcontrols2 module-qtwebsockets module-qtsvg module-qtcharts module-qtmqtt
+-    \endcode
+-
+-    Other modules are untested and may work.  Are not supported: QtMultimedia
+-    and QtWebView
+-
+     \section3 Known issues
+ 
+     Refer to the \l{https://wiki.qt.io/Qt_for_WebAssembly#Known issues}{wiki}.
+diff --git a/doc/src/platforms/webasm.qdoc b/doc/src/platforms/webasm.qdoc
+index 862417e2..918d2c23 100644
+--- a/doc/src/platforms/webasm.qdoc
++++ b/doc/src/platforms/webasm.qdoc
+@@ -88,6 +88,29 @@ After installation, you should have emscripten in your path.  Check this with th
+ The binary builds can be downloaded in the Downloads section using your Qt
+ account.
+ 
++\section3 Supported Qt modules
++
++The following modules are supported by Qt for WebAssembly:
++
++\list
++    \li QtBase
++    \li QtDeclarative
++    \li QtQuickcontrols2
++    \li QtWebsockets
++    \li QtSvg
++    \li QtCharts
++    \li QtMqtt
++\endlist
++
++The following modules do not work:
++
++\list
++    \li QtMultimedia
++    \li QtWebView
++\endlist
++
++Other modules may work, but are not supported.
++
+ \section3 Build Qt from the sources
+ 
+ Alternatively, you could download the Qt sources in the Downloads section,
+-- 
+2.31.1
+

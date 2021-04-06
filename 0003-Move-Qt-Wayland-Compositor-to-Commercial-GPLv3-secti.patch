@@ -1,0 +1,44 @@
+From 66bc586f96cf815274772aa96596953842aee2a1 Mon Sep 17 00:00:00 2001
+From: Kai Koehne <kai.koehne@qt.io>
+Date: Wed, 28 Oct 2020 08:49:07 +0100
+Subject: [PATCH 03/15] Move Qt Wayland Compositor to Commercial/GPLv3 section
+
+Task-number: QTBUG-87959
+Change-Id: I6dc228b35daecad547acb492b94c1c8a102c2bf7
+Reviewed-by: Paul Wicking <paul.wicking@qt.io>
+(cherry picked from commit 9b7c29a44b23d2ea01091830e277e3941ac48af9)
+---
+ doc/src/qtmodules.qdoc | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+diff --git a/doc/src/qtmodules.qdoc b/doc/src/qtmodules.qdoc
+index cde3a58f..5fa5c4f1 100644
+--- a/doc/src/qtmodules.qdoc
++++ b/doc/src/qtmodules.qdoc
+@@ -362,11 +362,6 @@
+         \li All
+         \li All
+         \li Support for XPath, XQuery, XSLT and XML schema validation.
+-    \row
+-        \li \l{Qt Wayland Compositor}
+-        \li \l{Qt for Linux/X11}{Linux}
+-        \li \l{Qt for Linux/X11}{Linux} and \l{Boot2Qt}{Boot to Qt} targets.
+-        \li Provides a framework to develop a Wayland compositor.
+     \row
+     \header
+         \li {4,1} \target gpl-licensed-addons
+@@ -402,6 +397,11 @@
+         \li A framework for implementing different input methods as
+             well as a QML virtual keyboard. Supports localized keyboard
+             layouts and custom visual themes.
++    \row
++        \li \l{Qt Wayland Compositor}
++        \li \l{Qt for Linux/X11}{Linux}
++        \li \l{Qt for Linux/X11}{Linux} and \l{Boot2Qt}{Boot to Qt} targets.
++        \li Provides a framework to develop a Wayland compositor.
+     \row
+         \li \l{Qt for WebAssembly}
+         \li All
+-- 
+2.31.1
+
