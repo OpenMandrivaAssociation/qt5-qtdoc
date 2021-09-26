@@ -1,3 +1,6 @@
+# (tpg) just disobey --excludedocs if passed to allow succesfull rpm build
+%global _excludedocs 0
+
 %define beta %{nil}
 
 Name:		qt5-qtdoc
@@ -11,6 +14,10 @@ Release:	1
 %define qttarballdir qtdoc-everywhere-src-5.15.2
 Source0:	http://download.qt.io/official_releases/qt/%(echo %{version}|cut -d. -f1-2)/5.15.2/submodules/%{qttarballdir}.tar.xz
 %endif
+Summary:	Qt GUI toolkit
+Group:		Development/KDE and Qt
+License:	LGPLv2 with exceptions or GPLv3 with exceptions and GFDL
+URL:		http://www.qt.io
 # From KDE
 Patch1000:	0001-Bump-version.patch
 Patch1001:	0002-EGLFS-document-that-desktop-centric-APIs-are-not-sup.patch
@@ -23,10 +30,6 @@ Patch1010:	0011-Doc-update-some-packages-for-Linux.patch
 Patch1011:	0012-Android-update-linux-package-dependencies.patch
 Patch1012:	0013-Remove-unneeded-italic-decoration.patch
 Patch1013:	0014-Linux-Fix-library-xcb-spelling-errors.patch
-Summary:	Qt GUI toolkit
-Group:		Development/KDE and Qt
-License:	LGPLv2 with exceptions or GPLv3 with exceptions and GFDL
-URL:		http://www.qt.io
 BuildRequires:	pkgconfig(Qt5Core) >= %{version}
 BuildRequires:	pkgconfig(Qt5Concurrent) >= %{version}
 BuildRequires:	pkgconfig(Qt5Gui) >= %{version}
@@ -57,7 +60,7 @@ Qt5 Documentation.
 #------------------------------------------------------------------------------
 
 %prep
-%autosetup -n %qttarballdir -p1
+%autosetup -n %{qttarballdir} -p1
 %{_qt5_bindir}/syncqt.pl -version %{version}
 
 %build
