@@ -1,0 +1,59 @@
+From d94372785fa484bfe4107ca84cb30c3bac8cd394 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Tor=20Arne=20Vestb=C3=B8?= <tor.arne.vestbo@qt.io>
+Date: Tue, 10 Nov 2020 12:16:31 +0100
+Subject: [PATCH 1/7] Clarify that the CI does not define the reference
+ configurations
+
+For various reasons, not all reference configurations are tested in
+the CI, but may instead be tested day to day by developers, and manually
+as part of the release process.
+
+By removing the CI references in the documentation we make it clear
+that the CI does not define the list of reference configurations.
+
+Change-Id: Ie16dd23afe5cae9d0a67a216cd113ab3c3ca10ec
+Reviewed-by: Heikki Halmet <heikki.halmet@qt.io>
+(cherry picked from commit ce554b6313bac4b760bbced03b113d8cb4803ce3)
+Reviewed-by: Qt Cherry-pick Bot <cherrypick_bot@qt-project.org>
+---
+ doc/src/platforms/supported-platforms.qdoc | 17 ++++++-----------
+ 1 file changed, 6 insertions(+), 11 deletions(-)
+
+diff --git a/doc/src/platforms/supported-platforms.qdoc b/doc/src/platforms/supported-platforms.qdoc
+index 1090f0e8..dda1fda1 100644
+--- a/doc/src/platforms/supported-platforms.qdoc
++++ b/doc/src/platforms/supported-platforms.qdoc
+@@ -65,13 +65,12 @@
+ 
+     \section1 Reference Configurations
+ 
+-    The reference configurations are run on the continuous integration (CI)
+-    system within Qt Project. In addition, they are subjected to unit test suite
+-    and other internal testing tools on a frequent basis (prior to new version
+-    releases, source tree branching, and at other significant period points in
+-    the development process). Errors or bugs discovered in these platforms are
+-    prioritized for correction. Significant errors discovered in tested
+-    configurations can impact release dates.
++    Reference configurations are the primary focus of development. They are subjected
++    to unit test suite and other internal testing tools on a frequent basis (prior to
++    new version releases, source tree branching, and at other significant period points
++    in the development process). Errors or bugs discovered in these platforms are
++    prioritized for correction. Significant errors discovered in tested configurations
++    can impact release dates.
+ 
+     Any configurations not listed above are not actively tested by the Qt
+     Project. However, Qt may run on configurations other than those actively
+@@ -80,10 +79,6 @@
+     state for that particular configuration. The reference configurations are
+     subject to change during the lifetime of a Qt release.
+ 
+-    Details of the reference configurations are stored as \e {provisioning scripts}
+-    in the \l {https://code.qt.io/cgit/qt/qt5.git/tree/coin?h=\qtver}
+-    {qt5 Git repository}.
+-
+     The Qt Company provides support for the officially supported platforms and
+     configurations. The Qt Company, Qt partners, open source projects and community
+     users are also able to provide assistance with various different platforms and
+-- 
+2.35.1
+

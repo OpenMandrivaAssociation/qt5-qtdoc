@@ -1,7 +1,7 @@
-From df6e664c19c858a35efed8641b0b0338cbf9f58d Mon Sep 17 00:00:00 2001
+From 06b78b0d371cbc3dc06e798c5c4c9c1e397fc8b6 Mon Sep 17 00:00:00 2001
 From: Assam Boudjelthia <assam.boudjelthia@qt.io>
 Date: Wed, 2 Dec 2020 23:05:40 +0200
-Subject: [PATCH 12/15] Android: update linux package dependencies
+Subject: [PATCH 4/7] Android: update linux package dependencies
 
 The 32bit packages are not needed by the current SDK tools, and
 libncurses is required for gdb to work properly.
@@ -48,5 +48,5 @@ index 13a7ab20..2710c3d6 100644
  
  \section2 Qt Creator IDE
 -- 
-2.31.1
+2.35.1
 

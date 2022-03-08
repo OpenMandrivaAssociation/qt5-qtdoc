@@ -1,7 +1,7 @@
-From ca278111a501c2fc7304b29ec8912858b4f39c0f Mon Sep 17 00:00:00 2001
+From 55deffcbe42615bbdbd20db912de1dcfdfbd72bb Mon Sep 17 00:00:00 2001
 From: Andre Hartmann <aha_1980@gmx.de>
 Date: Sat, 5 Dec 2020 22:55:40 +0100
-Subject: [PATCH 14/15] Linux: Fix library xcb spelling errors
+Subject: [PATCH 6/7] Linux: Fix library xcb spelling errors
 
 The basename is "xcb", not "xcd".
 Also, xinerama has a "0" appended.
@@ -30,5 +30,5 @@ index 73655aa2..88d4b040 100644
      \li libxkbcommon-x11-dev
      \endlist
 -- 
-2.31.1
+2.35.1
 
