@@ -4,14 +4,14 @@
 %define beta %{nil}
 
 Name:		qt5-qtdoc
-Version:	5.15.3
+Version:	5.15.4
 %if "%{beta}" != ""
 Release:	0.%{beta}.1
 %define qttarballdir qtdoc-everywhere-src-%{version}-%{beta}
 Source0:	http://download.qt.io/development_releases/qt/%(echo %{version}|cut -d. -f1-2)/%{version}-%{beta}/submodules/%{qttarballdir}.tar.xz
 %else
-Release:	2
-%define qttarballdir qtdoc-everywhere-opensource-src-5.15.3
+Release:	1
+%define qttarballdir qtdoc-everywhere-opensource-src-%{version}
 Source0:	http://download.qt.io/official_releases/qt/%(echo %{version}|cut -d. -f1-2)/%{version}/submodules/%{qttarballdir}.tar.xz
 %endif
 Summary:	Qt GUI toolkit

@@ -1,4 +1,4 @@
-From ed002122ce74b3505ba55262ddbc842a810e8159 Mon Sep 17 00:00:00 2001
+From 83b1a5dfde7255e9954d88a01f0e966837806bba Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?Tor=20Arne=20Vestb=C3=B8?= <tor.arne.vestbo@qt.io>
 Date: Wed, 9 Dec 2020 13:40:43 +0100
 Subject: [PATCH 7/7] Update supported Apple platforms
@@ -15,7 +15,7 @@ Reviewed-by: Morten Johan Sørvig <morten.sorvig@qt.io>
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/doc/src/platforms/supported-platforms.qdocinc b/doc/src/platforms/supported-platforms.qdocinc
-index 2fd6f241..0909b384 100644
+index 073a6199..dfaadb53 100644
 --- a/doc/src/platforms/supported-platforms.qdocinc
 +++ b/doc/src/platforms/supported-platforms.qdocinc
 @@ -62,7 +62,7 @@
@@ -40,5 +40,5 @@ index 2fd6f241..0909b384 100644
      \row \li tvOS 12, tvOS 13
          \li \c armv8 (\c arm64)
 -- 
-2.35.1
+2.36.1
 

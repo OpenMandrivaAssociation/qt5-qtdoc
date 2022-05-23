@@ -1,4 +1,4 @@
-From 06b78b0d371cbc3dc06e798c5c4c9c1e397fc8b6 Mon Sep 17 00:00:00 2001
+From 6a0cc057d1b7874e5995ab5c8b5a1dc8c5fbb5ef Mon Sep 17 00:00:00 2001
 From: Assam Boudjelthia <assam.boudjelthia@qt.io>
 Date: Wed, 2 Dec 2020 23:05:40 +0200
 Subject: [PATCH 4/7] Android: update linux package dependencies
@@ -17,7 +17,7 @@ Reviewed-by: Qt Cherry-pick Bot <cherrypick_bot@qt-project.org>
  1 file changed, 5 insertions(+), 6 deletions(-)
 
 diff --git a/doc/src/platforms/android/android.qdoc b/doc/src/platforms/android/android.qdoc
-index 13a7ab20..2710c3d6 100644
+index 576056f1..18244ab7 100644
 --- a/doc/src/platforms/android/android.qdoc
 +++ b/doc/src/platforms/android/android.qdoc
 @@ -203,21 +203,20 @@ After the package installation is complete, install the driver from
@@ -48,5 +48,5 @@ index 13a7ab20..2710c3d6 100644
  
  \section2 Qt Creator IDE
 -- 
-2.35.1
+2.36.1
 

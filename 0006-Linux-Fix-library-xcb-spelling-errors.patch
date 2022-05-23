@@ -1,4 +1,4 @@
-From 55deffcbe42615bbdbd20db912de1dcfdfbd72bb Mon Sep 17 00:00:00 2001
+From 408db4a064227cf2a060963ab403453f1d1104ef Mon Sep 17 00:00:00 2001
 From: Andre Hartmann <aha_1980@gmx.de>
 Date: Sat, 5 Dec 2020 22:55:40 +0100
 Subject: [PATCH 6/7] Linux: Fix library xcb spelling errors
@@ -30,5 +30,5 @@ index 73655aa2..88d4b040 100644
      \li libxkbcommon-x11-dev
      \endlist
 -- 
-2.35.1
+2.36.1
 
