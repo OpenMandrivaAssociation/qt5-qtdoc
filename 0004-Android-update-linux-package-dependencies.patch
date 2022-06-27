@@ -1,4 +1,4 @@
-From 6a0cc057d1b7874e5995ab5c8b5a1dc8c5fbb5ef Mon Sep 17 00:00:00 2001
+From 99481fa34517d41773f4776ce94b924c82ba72ff Mon Sep 17 00:00:00 2001
 From: Assam Boudjelthia <assam.boudjelthia@qt.io>
 Date: Wed, 2 Dec 2020 23:05:40 +0200
 Subject: [PATCH 4/7] Android: update linux package dependencies

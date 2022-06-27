@@ -1,4 +1,4 @@
-From 83b1a5dfde7255e9954d88a01f0e966837806bba Mon Sep 17 00:00:00 2001
+From a2a7f0f219ccedf1ecb2bc06760ef5439262aacd Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?Tor=20Arne=20Vestb=C3=B8?= <tor.arne.vestbo@qt.io>
 Date: Wed, 9 Dec 2020 13:40:43 +0100
 Subject: [PATCH 7/7] Update supported Apple platforms

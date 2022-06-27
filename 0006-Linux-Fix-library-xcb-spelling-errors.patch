@@ -1,4 +1,4 @@
-From 408db4a064227cf2a060963ab403453f1d1104ef Mon Sep 17 00:00:00 2001
+From 255b2e8bc62de9a50519a4732962eee5aa4ba4d5 Mon Sep 17 00:00:00 2001
 From: Andre Hartmann <aha_1980@gmx.de>
 Date: Sat, 5 Dec 2020 22:55:40 +0100
 Subject: [PATCH 6/7] Linux: Fix library xcb spelling errors
