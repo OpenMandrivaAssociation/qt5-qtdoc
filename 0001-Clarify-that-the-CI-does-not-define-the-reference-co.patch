@@ -1,4 +1,4 @@
-From d28c6023c46428ef2155f47cd7f2c4792a9a2863 Mon Sep 17 00:00:00 2001
+From 2c3aea8a9da28f3af6a9ac077808e7eca2458d84 Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?Tor=20Arne=20Vestb=C3=B8?= <tor.arne.vestbo@qt.io>
 Date: Tue, 10 Nov 2020 12:16:31 +0100
 Subject: [PATCH 1/7] Clarify that the CI does not define the reference
@@ -55,5 +55,5 @@ index 1090f0e8..dda1fda1 100644
      configurations. The Qt Company, Qt partners, open source projects and community
      users are also able to provide assistance with various different platforms and
 -- 
-2.36.1
+2.37.2
 

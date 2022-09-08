@@ -1,4 +1,4 @@
-From 99481fa34517d41773f4776ce94b924c82ba72ff Mon Sep 17 00:00:00 2001
+From 58827b77e790a0a4aab98435a41965347ed8a74a Mon Sep 17 00:00:00 2001
 From: Assam Boudjelthia <assam.boudjelthia@qt.io>
 Date: Wed, 2 Dec 2020 23:05:40 +0200
 Subject: [PATCH 4/7] Android: update linux package dependencies
@@ -48,5 +48,5 @@ index 576056f1..18244ab7 100644
  
  \section2 Qt Creator IDE
 -- 
-2.36.1
+2.37.2
 
