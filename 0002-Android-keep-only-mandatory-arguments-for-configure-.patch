@@ -1,7 +1,7 @@
-From 7355196e0328c81a9ed6c2fb2377a77c0c24ea74 Mon Sep 17 00:00:00 2001
+From 7ded2512b876307dd59c8f2baf22b657e5c54892 Mon Sep 17 00:00:00 2001
 From: Assam Boudjelthia <assam.boudjelthia@qt.io>
 Date: Thu, 12 Nov 2020 13:28:25 +0200
-Subject: [PATCH 2/7] Android: keep only mandatory arguments for configure when
+Subject: [PATCH 2/6] Android: keep only mandatory arguments for configure when
  building
 
 Remove optional arguments when building from source, since there is a
@@ -36,5 +36,5 @@ index 8b88efa4..be51b8e5 100644
  
      \l{Qt Configure Options} contains more information about the configure options.
 -- 
-2.37.2
+2.38.1
 

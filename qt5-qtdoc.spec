@@ -4,7 +4,7 @@
 %define beta %{nil}
 
 Name:		qt5-qtdoc
-Version:	5.15.6
+Version:	5.15.7
 %if "%{beta}" != ""
 Release:	0.%{beta}.1
 %define qttarballdir qtdoc-everywhere-src-%{version}-%{beta}
@@ -25,7 +25,6 @@ Patch1002:	0003-Doc-update-some-packages-for-Linux.patch
 Patch1003:	0004-Android-update-linux-package-dependencies.patch
 Patch1004:	0005-Remove-unneeded-italic-decoration.patch
 Patch1005:	0006-Linux-Fix-library-xcb-spelling-errors.patch
-Patch1006:	0007-Update-supported-Apple-platforms.patch
 BuildRequires:	pkgconfig(Qt5Core) >= %{version}
 BuildRequires:	pkgconfig(Qt5Concurrent) >= %{version}
 BuildRequires:	pkgconfig(Qt5Gui) >= %{version}

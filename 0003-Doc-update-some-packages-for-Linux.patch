@@ -1,7 +1,7 @@
-From da7b47253f7c4e19bb413fa3bc1a332aea3301e5 Mon Sep 17 00:00:00 2001
+From 8eb53f9e3ca092efeee38fb9d1e3134d3a19829e Mon Sep 17 00:00:00 2001
 From: Liang Qi <liang.qi@qt.io>
 Date: Mon, 16 Nov 2020 14:56:50 +0100
-Subject: [PATCH 3/7] Doc: update some packages for Linux
+Subject: [PATCH 3/6] Doc: update some packages for Linux
 MIME-Version: 1.0
 Content-Type: text/plain; charset=UTF-8
 Content-Transfer-Encoding: 8bit
@@ -115,5 +115,5 @@ index d15abf51..73655aa2 100644
      \li libxkbcommon-x11-dev
      \endlist
 -- 
-2.37.2
+2.38.1
 
