@@ -1,4 +1,4 @@
-From 957c2900f5cf35aa2155925df8e49cc236668562 Mon Sep 17 00:00:00 2001
+From 7558ac746b0406dfb16700aca3afcd9774d673d2 Mon Sep 17 00:00:00 2001
 From: Assam Boudjelthia <assam.boudjelthia@qt.io>
 Date: Wed, 2 Dec 2020 23:22:09 +0200
 Subject: [PATCH 5/6] Remove unneeded italic decoration

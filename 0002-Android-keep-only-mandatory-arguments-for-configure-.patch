@@ -1,4 +1,4 @@
-From 7ded2512b876307dd59c8f2baf22b657e5c54892 Mon Sep 17 00:00:00 2001
+From 4dbe2fc39ec3d0f33d1f5607423d35784a710749 Mon Sep 17 00:00:00 2001
 From: Assam Boudjelthia <assam.boudjelthia@qt.io>
 Date: Thu, 12 Nov 2020 13:28:25 +0200
 Subject: [PATCH 2/6] Android: keep only mandatory arguments for configure when

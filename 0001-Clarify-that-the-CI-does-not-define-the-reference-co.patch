@@ -1,4 +1,4 @@
-From acfb98f2af79e9f5934a9d75812cf826a5ab5355 Mon Sep 17 00:00:00 2001
+From dbb6f9c74ff3a0609f9a1a7ff29921105be4c9f8 Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?Tor=20Arne=20Vestb=C3=B8?= <tor.arne.vestbo@qt.io>
 Date: Tue, 10 Nov 2020 12:16:31 +0100
 Subject: [PATCH 1/6] Clarify that the CI does not define the reference

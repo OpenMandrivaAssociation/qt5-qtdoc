@@ -1,10 +1,10 @@
-# (tpg) just disobey --excludedocs if passed to allow succesfull rpm build
+# (tpg) just disobey --excludedocs if passed to allow succesful rpm build
 %global _excludedocs 0
 
 %define beta %{nil}
 
 Name:		qt5-qtdoc
-Version:	5.15.7
+Version:	5.15.8
 %if "%{beta}" != ""
 Release:	0.%{beta}.1
 %define qttarballdir qtdoc-everywhere-src-%{version}-%{beta}
