@@ -1,4 +1,4 @@
-From 2b936d0994da7772b7077dc1a49d24bc52b9a94c Mon Sep 17 00:00:00 2001
+From 705ed2936d5dcb68e1c3427dc9ea501c30f88f07 Mon Sep 17 00:00:00 2001
 From: Liang Qi <liang.qi@qt.io>
 Date: Mon, 16 Nov 2020 14:56:50 +0100
 Subject: [PATCH 3/6] Doc: update some packages for Linux
@@ -115,5 +115,5 @@ index d15abf51..73655aa2 100644
      \li libxkbcommon-x11-dev
      \endlist
 -- 
-2.38.1
+2.40.0.rc2
 
