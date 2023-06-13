@@ -4,7 +4,7 @@
 %define beta %{nil}
 
 Name:		qt5-qtdoc
-Version:	5.15.9
+Version:	5.15.10
 %if "%{beta}" != ""
 Release:	0.%{beta}.1
 %define qttarballdir qtdoc-everywhere-src-%{version}-%{beta}
@@ -19,12 +19,11 @@ Group:		Development/KDE and Qt
 License:	LGPLv2 with exceptions or GPLv3 with exceptions and GFDL
 URL:		http://www.qt.io
 # From KDE
-Patch1000:	0001-Clarify-that-the-CI-does-not-define-the-reference-co.patch
-Patch1001:	0002-Android-keep-only-mandatory-arguments-for-configure-.patch
-Patch1002:	0003-Doc-update-some-packages-for-Linux.patch
-Patch1003:	0004-Android-update-linux-package-dependencies.patch
-Patch1004:	0005-Remove-unneeded-italic-decoration.patch
-Patch1005:	0006-Linux-Fix-library-xcb-spelling-errors.patch
+Patch1001:	0001-Android-keep-only-mandatory-arguments-for-configure-.patch
+Patch1002:	0002-Doc-update-some-packages-for-Linux.patch
+Patch1003:	0003-Android-update-linux-package-dependencies.patch
+Patch1004:	0004-Remove-unneeded-italic-decoration.patch
+Patch1005:	0005-Linux-Fix-library-xcb-spelling-errors.patch
 BuildRequires:	pkgconfig(Qt5Core) >= %{version}
 BuildRequires:	pkgconfig(Qt5Concurrent) >= %{version}
 BuildRequires:	pkgconfig(Qt5Gui) >= %{version}
