@@ -1,4 +1,4 @@
-From c3ece06aed290df6982a68e0da7026651abe68ea Mon Sep 17 00:00:00 2001
+From d22996fb8b26f17167d30326eba646f681c7a487 Mon Sep 17 00:00:00 2001
 From: Liang Qi <liang.qi@qt.io>
 Date: Mon, 16 Nov 2020 14:56:50 +0100
 Subject: [PATCH 2/5] Doc: update some packages for Linux
@@ -16,7 +16,7 @@ Reviewed-by: Qt Cherry-pick Bot <cherrypick_bot@qt-project.org>
  1 file changed, 23 insertions(+), 9 deletions(-)
 
 diff --git a/doc/src/platforms/linux.qdoc b/doc/src/platforms/linux.qdoc
-index d15abf51..73655aa2 100644
+index 4a8e38f9..5bd2fb28 100644
 --- a/doc/src/platforms/linux.qdoc
 +++ b/doc/src/platforms/linux.qdoc
 @@ -149,43 +149,49 @@
@@ -115,5 +115,5 @@ index d15abf51..73655aa2 100644
      \li libxkbcommon-x11-dev
      \endlist
 -- 
-2.42.0
+2.43.0
 
