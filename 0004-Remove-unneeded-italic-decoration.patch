@@ -1,4 +1,4 @@
-From b22b49b5046f7831b24287f82ffcd5036b476a29 Mon Sep 17 00:00:00 2001
+From 9b1ac00242c8f55e139b955019aa04e6ad91a6b5 Mon Sep 17 00:00:00 2001
 From: Assam Boudjelthia <assam.boudjelthia@qt.io>
 Date: Wed, 2 Dec 2020 23:22:09 +0200
 Subject: [PATCH 4/5] Remove unneeded italic decoration
@@ -12,7 +12,7 @@ Reviewed-by: Qt Cherry-pick Bot <cherrypick_bot@qt-project.org>
  1 file changed, 3 insertions(+), 3 deletions(-)
 
 diff --git a/doc/src/platforms/android/android.qdoc b/doc/src/platforms/android/android.qdoc
-index 18244ab7..d164e1c5 100644
+index d0edf5a3..2c1fb4de 100644
 --- a/doc/src/platforms/android/android.qdoc
 +++ b/doc/src/platforms/android/android.qdoc
 @@ -146,16 +146,16 @@ Different Qt versions depend on different NDK versions, as listed below:
@@ -36,5 +36,5 @@ index 18244ab7..d164e1c5 100644
  
  \note Qt 5.14.0 and 5.14.1 with NDK r21 have a bug fixed at \l {QTBUG-81461}.
 -- 
-2.43.0
+2.45.1
 
