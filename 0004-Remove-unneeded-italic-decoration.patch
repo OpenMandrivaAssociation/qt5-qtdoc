@@ -1,4 +1,4 @@
-From 9b1ac00242c8f55e139b955019aa04e6ad91a6b5 Mon Sep 17 00:00:00 2001
+From 3d75a4f61ab2010203d721e509f7570770bc87f4 Mon Sep 17 00:00:00 2001
 From: Assam Boudjelthia <assam.boudjelthia@qt.io>
 Date: Wed, 2 Dec 2020 23:22:09 +0200
 Subject: [PATCH 4/5] Remove unneeded italic decoration
@@ -36,5 +36,5 @@ index d0edf5a3..2c1fb4de 100644
  
  \note Qt 5.14.0 and 5.14.1 with NDK r21 have a bug fixed at \l {QTBUG-81461}.
 -- 
-2.45.1
+2.46.0
 
