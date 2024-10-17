@@ -17,7 +17,7 @@ Source0:	http://download.qt.io/official_releases/qt/%(echo %{version}|cut -d. -f
 Summary:	Qt GUI toolkit
 Group:		Development/KDE and Qt
 License:	LGPLv2 with exceptions or GPLv3 with exceptions and GFDL
-URL:		http://www.qt.io
+URL:		https://www.qt.io
 # From KDE
 %(P=1001; cd %{_sourcedir}; for i in [0-9][0-9][0-9][0-9]-*.patch; do echo -e "Patch$P:\t$i"; P=$((P+1)); done)
 
