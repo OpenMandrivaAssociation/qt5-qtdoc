@@ -1,7 +1,7 @@
-From bed8d889f0fbde4630b2018198f05e681b80cf3f Mon Sep 17 00:00:00 2001
+From caccc723f79495b473733d937d174251defc4658 Mon Sep 17 00:00:00 2001
 From: Assam Boudjelthia <assam.boudjelthia@qt.io>
 Date: Wed, 2 Dec 2020 23:05:40 +0200
-Subject: [PATCH 3/5] Android: update linux package dependencies
+Subject: [PATCH 2/5] Android: update linux package dependencies
 
 The 32bit packages are not needed by the current SDK tools, and
 libncurses is required for gdb to work properly.
@@ -17,10 +17,10 @@ Reviewed-by: Qt Cherry-pick Bot <cherrypick_bot@qt-project.org>
  1 file changed, 5 insertions(+), 6 deletions(-)
 
 diff --git a/doc/src/platforms/android/android.qdoc b/doc/src/platforms/android/android.qdoc
-index e5e4ffd2..d0edf5a3 100644
+index 34f46f435..b4abea8b0 100644
 --- a/doc/src/platforms/android/android.qdoc
 +++ b/doc/src/platforms/android/android.qdoc
-@@ -203,21 +203,20 @@ After the package installation is complete, install the driver from
+@@ -253,21 +253,20 @@ After the package installation is complete, install the driver from
  \l{Android: adb}{adb} commands now and check whether your Android device
  responds to them.
  
@@ -48,5 +48,5 @@ index e5e4ffd2..d0edf5a3 100644
  
  \section2 Qt Creator IDE
 -- 
-2.46.0
+2.51.2
 

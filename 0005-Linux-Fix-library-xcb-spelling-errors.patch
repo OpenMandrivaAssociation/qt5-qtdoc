@@ -1,4 +1,4 @@
-From 7c8712064b1aefcf880bbc82138e96bd4909b36e Mon Sep 17 00:00:00 2001
+From ddb2afda6f713259fc8d95fb22a1c96bb448c36a Mon Sep 17 00:00:00 2001
 From: Andre Hartmann <aha_1980@gmx.de>
 Date: Sat, 5 Dec 2020 22:55:40 +0100
 Subject: [PATCH 5/5] Linux: Fix library xcb spelling errors
@@ -15,14 +15,14 @@ Reviewed-by: Qt Cherry-pick Bot <cherrypick_bot@qt-project.org>
  1 file changed, 2 insertions(+), 2 deletions(-)
 
 diff --git a/doc/src/platforms/linux.qdoc b/doc/src/platforms/linux.qdoc
-index 5bd2fb28..c1a675da 100644
+index 89e3863c1..c1a675da7 100644
 --- a/doc/src/platforms/linux.qdoc
 +++ b/doc/src/platforms/linux.qdoc
 @@ -320,8 +320,8 @@
      \li libxcb-randr0-dev
      \li libxcb-render-util0-dev
      \li libxcb-util-dev
--    \li libxcd-xinerama-dev
+-    \li libxcb-xinerama-dev
 -    \li libxcd-xkb-dev
 +    \li libxcb-xinerama0-dev
 +    \li libxcb-xkb-dev
@@ -30,5 +30,5 @@ index 5bd2fb28..c1a675da 100644
      \li libxkbcommon-x11-dev
      \endlist
 -- 
-2.46.0
+2.51.2
 
