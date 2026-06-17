@@ -1,4 +1,4 @@
-From 53d1abd0e15939307325c317daca5cebcf9be668 Mon Sep 17 00:00:00 2001
+From c7f60960b2851577a25d69cb234e7db2b07aa3f7 Mon Sep 17 00:00:00 2001
 From: Assam Boudjelthia <assam.boudjelthia@qt.io>
 Date: Thu, 12 Nov 2020 13:28:25 +0200
 Subject: [PATCH 1/5] Android: keep only mandatory arguments for configure when
@@ -36,5 +36,5 @@ index 942753cc9..36bdf6379 100644
  
      \l{Qt Configure Options} contains more information about the configure options.
 -- 
-2.51.2
+2.53.0
 
